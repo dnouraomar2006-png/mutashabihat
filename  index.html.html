@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>متشابهات سورتي الزمر وغافر</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fdf8ee;--card:#fffdf7;--rose:#d9b3a3;--acc:#b5485d;--ink:#4b4b3f;--sage:#7a7d6a;--ok:#5d8a5a;--bad:#b5485d;--line:#ecd9cf;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#2a2522;--card:#352e2a;--rose:#8c6a5c;--acc:#e58a9c;--ink:#f1e8dc;--sage:#b9bca6;--ok:#8fc48b;--bad:#e58a9c;--line:#4d423b;color-scheme:dark}}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Amiri','Traditional Arabic',serif;font-size:18px;line-height:1.9}
+.wrap{max-width:720px;margin:0 auto;padding:14px}
+h1{font-size:28px;text-align:center;margin:6px 0 0;color:var(--sage)}
+.sub{text-align:center;font-size:15px;color:var(--rose);margin-bottom:10px}
+nav{display:flex;gap:6px;position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);padding:6px 0;z-index:5}
+nav button{flex:1;font:inherit;font-size:16px;padding:6px 4px;border:1.5px solid var(--rose);background:var(--card);color:var(--ink);border-radius:12px;cursor:pointer}
+nav button.on{background:var(--rose);color:#fff;font-weight:700}
+.box{background:var(--card);border:2px solid var(--rose);border-radius:18px;padding:14px;margin:10px 0}
+.grid{display:grid;gap:10px}
+.sec{display:flex;justify-content:space-between;align-items:center;font:inherit;font-size:19px;width:100%;text-align:right;padding:12px 14px;border:2px solid var(--rose);background:var(--card);color:var(--ink);border-radius:16px;cursor:pointer}
+.pill{font-size:14px;color:var(--acc)}
+.bar{height:8px;background:var(--line);border-radius:8px;overflow:hidden;margin-top:6px}
+.bar i{display:block;height:100%;background:var(--acc);width:0;transition:width .3s}
+.card{min-height:230px;cursor:pointer;display:flex;flex-direction:column;justify-content:center;text-align:center}
+.card .t{font-size:26px;font-weight:700}
+.hint{font-size:14px;color:var(--sage)}
+.v{margin:8px 0;padding:8px 10px;border-radius:12px;background:var(--bg);border:1px solid var(--line);text-align:right;font-size:19px}
+.v small{display:block;color:var(--acc);font-size:14px}
+mark{background:none;color:var(--acc);font-weight:700;border-bottom:2px solid var(--acc)}
+.row{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:8px}
+.btn{font:inherit;font-size:17px;padding:8px 16px;border-radius:12px;border:1.5px solid var(--acc);background:var(--acc);color:#fff;cursor:pointer}
+.btn.o{background:none;color:var(--acc)}
+.opt{display:block;width:100%;font:inherit;font-size:19px;text-align:right;padding:10px 12px;margin:7px 0;border:1.5px solid var(--rose);border-radius:12px;background:var(--card);color:var(--ink);cursor:pointer}
+.opt.ok{background:var(--ok);color:#fff;border-color:var(--ok)}
+.opt.bad{background:var(--bad);color:#fff;border-color:var(--bad)}
+.q{font-size:22px;text-align:center;margin:6px 0 10px}
+.note{font-size:16px;color:var(--sage);min-height:28px;text-align:center}
+.top{display:flex;justify-content:space-between;font-size:16px;color:var(--sage)}
+.big{font-size:44px;text-align:center;color:var(--acc);font-weight:700}
+.hid{display:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>متشابهات سورتي الزمر وغافر</h1>
+<div class="sub">بطاقات واختبارات تفاعلية</div>
+<nav id="nav"></nav>
+<div id="app"></div>
+</div>
+<script>
+const S={z:'الزمر',g:'غافر',r:'الروم',f:'فاطر',t:'التغابن',a:'الأحزاب',h:'الفتح',j:'الجاثية والأحقاف'};
+const SECS=[
+{n:'الزمر مع نفسها',c:[
+{t:'إذا مس الإنسان ضر',v:[['الزمر ٨','<mark>وَإِذَا</mark> مَسَّ الْإِنسَانَ ضُرٌّ <mark>دَعَا رَبَّهُ مُنِيبًا إِلَيْهِ</mark> ثُمَّ إِذَا خَوَّلَهُ نِعْمَةً مِّنْهُ'],['الزمر ٤٩','<mark>فَإِذَا</mark> مَسَّ الْإِنسَانَ ضُرٌّ <mark>دَعَانَا</mark> ثُمَّ إِذَا خَوَّلْنَاهُ نِعْمَةً مِّنَّا']]},
+{t:'أَلَيْسَ فِي جَهَنَّمَ مَثْوًى',v:[['الزمر ٣٢','فَمَنْ أَظْلَمُ مِمَّن كَذَبَ عَلَى اللَّهِ وَكَذَّبَ بِالصِّدْقِ إِذْ جَاءَهُ أَلَيْسَ فِي جَهَنَّمَ مَثْوًى <mark>لِّلْكَافِرِينَ</mark>'],['الزمر ٦٠','وَيَوْمَ الْقِيَامَةِ تَرَى الَّذِينَ كَذَبُوا عَلَى اللَّهِ وُجُوهُهُم مُّسْوَدَّةٌ أَلَيْسَ فِي جَهَنَّمَ مَثْوًى <mark>لِّلْمُتَكَبِّرِينَ</mark>']]},
+{t:'وَمَن يُضْلِلِ اللَّهُ فَمَا لَهُ مِنْ هَادٍ',v:[['الزمر ٢٣','<mark>ذَٰلِكَ هُدَى اللَّهِ يَهْدِي بِهِ مَن يَشَاءُ</mark> وَمَن يُضْلِلِ اللَّهُ فَمَا لَهُ مِنْ هَادٍ'],['الزمر ٣٦','<mark>أَلَيْسَ اللَّهُ بِكَافٍ عَبْدَهُ وَيُخَوِّفُونَكَ بِالَّذِينَ مِن دُونِهِ</mark> وَمَن يُضْلِلِ اللَّهُ فَمَا لَهُ مِنْ هَادٍ']]},
+{t:'وَمَن يَهْدِ اللَّهُ فَمَا لَهُ مِن مُّضِلٍّ',v:[['الزمر ٣٧','وَمَن <mark>يَهْدِ</mark> اللَّهُ فَمَا لَهُ مِن <mark>مُّضِلٍّ</mark> أَلَيْسَ اللَّهُ بِعَزِيزٍ ذِي انتِقَامٍ'],['للمقارنة: الزمر ٣٦','وَمَن <mark>يُضْلِلِ</mark> اللَّهُ فَمَا لَهُ مِنْ <mark>هَادٍ</mark>']]},
+{t:'مِن قَبْلِ أَن يَأْتِيَكُمُ الْعَذَابُ',v:[['الزمر ٥٤','مِن قَبْلِ أَن يَأْتِيَكُمُ الْعَذَابُ <mark>ثُمَّ لَا تُنصَرُونَ</mark>'],['الزمر ٥٥','مِن قَبْلِ أَن يَأْتِيَكُمُ الْعَذَابُ <mark>بَغْتَةً وَأَنتُمْ لَا تَشْعُرُونَ</mark>']]}]},
+{n:'الزمر وغافر',c:[
+{t:'تَنزِيلُ الْكِتَابِ مِنَ اللَّهِ',v:[['الزمر ١','تَنزِيلُ الْكِتَابِ مِنَ اللَّهِ الْعَزِيزِ <mark>الْحَكِيمِ</mark>'],['غافر ٢','تَنزِيلُ الْكِتَابِ مِنَ اللَّهِ الْعَزِيزِ <mark>الْعَلِيمِ</mark>']]},
+{t:'وَحَاقَ بِهِم مَّا كَانُوا بِهِ يَسْتَهْزِئُونَ',v:[['الزمر ٤٨','<mark>وَبَدَا لَهُمْ سَيِّئَاتُ مَا كَسَبُوا</mark> وَحَاقَ بِهِم مَّا كَانُوا بِهِ يَسْتَهْزِئُونَ'],['غافر ٨٣','<mark>فَلَمَّا جَاءَتْهُمْ رُسُلُهُم بِالْبَيِّنَاتِ فَرِحُوا بِمَا عِندَهُم مِّنَ الْعِلْمِ</mark> وَحَاقَ بِهِم مَّا كَانُوا بِهِ يَسْتَهْزِئُونَ']]},
+{t:'فَبِئْسَ مَثْوَى الْمُتَكَبِّرِينَ',v:[['الزمر ٧٢','<mark>قِيلَ</mark> ادْخُلُوا أَبْوَابَ جَهَنَّمَ خَالِدِينَ فِيهَا فَبِئْسَ مَثْوَى الْمُتَكَبِّرِينَ'],['غافر ٧٦','ادْخُلُوا أَبْوَابَ جَهَنَّمَ خَالِدِينَ فِيهَا فَبِئْسَ مَثْوَى الْمُتَكَبِّرِينَ']]},
+{t:'وَمَن يُضْلِلِ اللَّهُ فَمَا لَهُ مِنْ هَادٍ',v:[['الزمر ٣٦','<mark>أَلَيْسَ اللَّهُ بِكَافٍ عَبْدَهُ</mark> وَيُخَوِّفُونَكَ بِالَّذِينَ مِن دُونِهِ وَمَن يُضْلِلِ اللَّهُ فَمَا لَهُ مِنْ هَادٍ'],['غافر ٣٣','<mark>يَوْمَ تُوَلُّونَ مُدْبِرِينَ مَا لَكُم مِّنَ اللَّهِ مِنْ عَاصِمٍ</mark> وَمَن يُضْلِلِ اللَّهُ فَمَا لَهُ مِنْ هَادٍ']]},
+{t:'إِنَّ اللَّهَ لَا يَهْدِي مَنْ هُوَ',v:[['الزمر ٣','إِنَّ اللَّهَ لَا يَهْدِي مَنْ هُوَ <mark>كَاذِبٌ كَفَّارٌ</mark>'],['غافر ٢٨','إِنَّ اللَّهَ لَا يَهْدِي مَنْ هُوَ <mark>مُسْرِفٌ كَذَّابٌ</mark>']]},
+{t:'ذَٰلِكُمُ اللَّهُ رَبُّكُمْ',v:[['الزمر ٦','ذَٰلِكُمُ اللَّهُ رَبُّكُمْ <mark>لَهُ الْمُلْكُ</mark> لَا إِلَٰهَ إِلَّا هُوَ فَأَنَّىٰ <mark>تُصْرَفُونَ</mark>'],['غافر ٦٢','ذَٰلِكُمُ اللَّهُ رَبُّكُمْ <mark>خَالِقُ كُلِّ شَيْءٍ</mark> لَا إِلَٰهَ إِلَّا هُوَ فَأَنَّىٰ <mark>تُؤْفَكُونَ</mark>']]},
+{t:'فَمَا أَغْنَىٰ عَنْهُم مَّا كَانُوا يَكْسِبُونَ',v:[['الزمر ٥٠','<mark>قَدْ قَالَهَا الَّذِينَ مِن قَبْلِهِمْ</mark> فَمَا أَغْنَىٰ عَنْهُم مَّا كَانُوا يَكْسِبُونَ'],['غافر ٨٢','<mark>أَفَلَمْ يَسِيرُوا فِي الْأَرْضِ … وَأَشَدَّ قُوَّةً وَآثَارًا فِي الْأَرْضِ</mark> فَمَا أَغْنَىٰ عَنْهُم مَّا كَانُوا يَكْسِبُونَ']]}]},
+{n:'غافر مع غيرها',c:[
+{t:'كَانُوا أَشَدَّ مِنْهُمْ',v:[['غافر ٢١','كَانُوا <mark>هُمْ</mark> أَشَدَّ مِنْهُمْ قُوَّةً وَآثَارًا فِي الْأَرْضِ'],['غافر ٨٢','كَانُوا <mark>أَكْثَرَ مِنْهُمْ وَأَشَدَّ</mark> قُوَّةً وَآثَارًا فِي الْأَرْضِ'],['فاطر ٤٤','<mark>وَ</mark>كَانُوا أَشَدَّ مِنْهُمْ قُوَّةً']]},
+{t:'ذَٰلِكَ بِأَنَّهُ / بِأَنَّهُمْ',v:[['غافر ٢٢','ذَٰلِكَ <mark>بِأَنَّهُمْ</mark> كَانَت تَّأْتِيهِمْ رُسُلُهُم بِالْبَيِّنَاتِ فَكَفَرُوا'],['التغابن ٦','ذَٰلِكَ <mark>بِأَنَّهُ</mark> كَانَت تَّأْتِيهِمْ رُسُلُهُم بِالْبَيِّنَاتِ فَقَالُوا أَبَشَرٌ يَهْدُونَنَا']]},
+{t:'فَاصْبِرْ إِنَّ وَعْدَ اللَّهِ حَقٌّ',v:[['غافر ٥٥','فَاصْبِرْ إِنَّ وَعْدَ اللَّهِ حَقٌّ <mark>وَاسْتَغْفِرْ لِذَنبِكَ وَسَبِّحْ بِحَمْدِ رَبِّكَ بِالْعَشِيِّ وَالْإِبْكَارِ</mark>'],['الروم ٦٠','فَاصْبِرْ إِنَّ وَعْدَ اللَّهِ حَقٌّ <mark>وَلَا يَسْتَخِفَّنَّكَ الَّذِينَ لَا يُوقِنُونَ</mark>']]},
+{t:'سُنَّةَ اللَّهِ',v:[['غافر ٨٥','<mark>سُنَّتَ</mark> اللَّهِ الَّتِي قَدْ خَلَتْ فِي عِبَادِهِ'],['الأحزاب ٦٢','<mark>سُنَّةَ</mark> اللَّهِ فِي الَّذِينَ خَلَوْا مِن قَبْلُ'],['الفتح ٢٣','<mark>سُنَّةَ</mark> اللَّهِ الَّتِي قَدْ خَلَتْ مِن قَبْلُ']]},
+{t:'تَنزِيلُ الْكِتَابِ مِنَ اللَّهِ',v:[['غافر ٢','تَنزِيلُ الْكِتَابِ مِنَ اللَّهِ الْعَزِيزِ <mark>الْعَلِيمِ</mark>'],['الجاثية ٢ والأحقاف ٢','تَنزِيلُ الْكِتَابِ مِنَ اللَّهِ الْعَزِيزِ <mark>الْحَكِيمِ</mark>']]},
+{t:'أَوَلَمْ / أَفَلَمْ يَسِيرُوا فِي الْأَرْضِ',v:[['غافر ٢١','<mark>أَوَلَمْ</mark> يَسِيرُوا فِي الْأَرْضِ فَيَنظُرُوا كَيْفَ كَانَ عَاقِبَةُ الَّذِينَ مِن قَبْلِهِمْ كَانُوا هُمْ أَشَدَّ مِنْهُمْ قُوَّةً وَآثَارًا فِي الْأَرْضِ <mark>فَأَخَذَهُمُ اللَّهُ بِذُنُوبِهِمْ وَمَا كَانَ لَهُم مِّنَ اللَّهِ مِن وَاقٍ</mark>'],['غافر ٨٢','<mark>أَفَلَمْ</mark> يَسِيرُوا فِي الْأَرْضِ … كَانُوا <mark>أَكْثَرَ مِنْهُمْ وَأَشَدَّ</mark> قُوَّةً وَآثَارًا فِي الْأَرْضِ <mark>فَمَا أَغْنَىٰ عَنْهُم مَّا كَانُوا يَكْسِبُونَ</mark>'],['فاطر ٤٤','أَوَلَمْ يَسِيرُوا فِي الْأَرْضِ … <mark>وَ</mark>كَانُوا أَشَدَّ مِنْهُمْ قُوَّةً <mark>وَمَا كَانَ اللَّهُ لِيُعْجِزَهُ مِن شَيْءٍ فِي السَّمَاوَاتِ وَلَا فِي الْأَرْضِ إِنَّهُ كَانَ عَلِيمًا قَدِيرًا</mark>'],['الروم ٩','أَوَلَمْ يَسِيرُوا فِي الْأَرْضِ … كَانُوا أَشَدَّ مِنْهُمْ قُوَّةً <mark>وَأَثَارُوا الْأَرْضَ وَعَمَرُوهَا أَكْثَرَ مِمَّا عَمَرُوهَا وَجَاءَتْهُمْ رُسُلُهُم بِالْبَيِّنَاتِ</mark> فَمَا كَانَ اللَّهُ لِيَظْلِمَهُمْ وَلَٰكِن كَانُوا أَنفُسَهُمْ يَظْلِمُونَ']]},
+{t:'وَلَقَدْ أَرْسَلْنَا',v:[['غافر ٧٨','وَلَقَدْ أَرْسَلْنَا <mark>رُسُلًا مِّن قَبْلِكَ</mark> مِنْهُم مَّن قَصَصْنَا عَلَيْكَ وَمِنْهُم مَّن لَّمْ نَقْصُصْ عَلَيْكَ'],['الروم ٤٧','وَلَقَدْ أَرْسَلْنَا <mark>مِن قَبْلِكَ رُسُلًا إِلَىٰ قَوْمِهِمْ</mark> فَجَاءُوهُم بِالْبَيِّنَاتِ فَانتَقَمْنَا مِنَ الَّذِينَ أَجْرَمُوا']]},
+{t:'خَلَقَكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ',v:[['غافر ٦٧','<mark>هُوَ الَّذِي</mark> خَلَقَكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ <mark>ثُمَّ مِنْ عَلَقَةٍ ثُمَّ يُخْرِجُكُمْ طِفْلًا</mark> ثُمَّ لِتَبْلُغُوا أَشُدَّكُمْ ثُمَّ لِتَكُونُوا شُيُوخًا'],['فاطر ١١','<mark>وَاللَّهُ</mark> خَلَقَكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ <mark>ثُمَّ جَعَلَكُمْ أَزْوَاجًا</mark> وَمَا تَحْمِلُ مِنْ أُنثَىٰ وَلَا تَضَعُ إِلَّا بِعِلْمِهِ']]}]}
+];
+// quiz: [question, options, answer index, note, section]
+const Q=[
+['«أَلَيْسَ اللَّهُ بِكَافٍ عَبْدَهُ … وَمَن يُضْلِلِ اللَّهُ فَمَا لَهُ مِنْ هَادٍ»<br>في أي سورة؟',['الزمر','غافر'],0,'الزمر ٣٦، وفي غافر ٣٣ تسبقها «يَوْمَ تُوَلُّونَ مُدْبِرِينَ».',1],
+['«يَوْمَ تُوَلُّونَ مُدْبِرِينَ … وَمَن يُضْلِلِ اللَّهُ»<br>في أي سورة؟',['الزمر','غافر'],1,'غافر ٣٣.',1],
+['«تَنزِيلُ الْكِتَابِ مِنَ اللَّهِ الْعَزِيزِ الْعَلِيمِ»<br>في أي سورة؟',['الزمر','غافر'],1,'غافر ٢، وفي الزمر «الْعَزِيزِ الْحَكِيمِ».',1],
+['«قِيلَ ادْخُلُوا أَبْوَابَ جَهَنَّمَ خَالِدِينَ فِيهَا»<br>في أي سورة؟',['الزمر','غافر'],0,'الزمر ٧٢ فيها «قِيلَ»، وغافر ٧٦ بدونها.',1],
+['«إِنَّ اللَّهَ لَا يَهْدِي مَنْ هُوَ مُسْرِفٌ كَذَّابٌ»<br>في أي سورة؟',['الزمر','غافر'],1,'غافر ٢٨، وفي الزمر «كَاذِبٌ كَفَّارٌ».',1],
+['«ذَٰلِكُمُ اللَّهُ رَبُّكُمْ لَهُ الْمُلْكُ»<br>في أي سورة؟',['الزمر','غافر'],0,'الزمر ٦، وفي غافر «خَالِقُ كُلِّ شَيْءٍ».',1],
+['«ذَٰلِكُمُ اللَّهُ رَبُّكُمْ خَالِقُ كُلِّ شَيْءٍ لَا إِلَٰهَ إِلَّا هُوَ فَأَنَّىٰ …»',['تُصْرَفُونَ','تُؤْفَكُونَ'],1,'غافر ٦٢ «تُؤْفَكُونَ».',1],
+['«وَأَنِيبُوا إِلَىٰ رَبِّكُمْ … مِن قَبْلِ أَن يَأْتِيَكُمُ الْعَذَابُ …»',['ثُمَّ لَا تُنصَرُونَ','بَغْتَةً وَأَنتُمْ لَا تَشْعُرُونَ'],0,'الزمر ٥٤ «ثُمَّ لَا تُنصَرُونَ»، والآية ٥٥ فيها «بَغْتَةً».',0],
+['«أَلَيْسَ فِي جَهَنَّمَ مَثْوًى …» (الزمر ٦٠)',['لِّلْكَافِرِينَ','لِّلْمُتَكَبِّرِينَ'],1,'الآية ٦٠ «لِّلْمُتَكَبِّرِينَ»، والآية ٣٢ «لِّلْكَافِرِينَ».',0],
+['«وَإِذَا مَسَّ الْإِنسَانَ ضُرٌّ دَعَا …»',['رَبَّهُ مُنِيبًا إِلَيْهِ','نَا'],0,'الزمر ٨، أما الآية ٤٩ فتبدأ بـ«فَإِذَا … دَعَانَا».',0],
+['«ذَٰلِكَ … بِأَنَّهُمْ كَانَت تَّأْتِيهِمْ رُسُلُهُم»<br>في أي سورة؟',['غافر','التغابن'],0,'غافر ٢٢ «بِأَنَّهُمْ»، والتغابن ٦ «بِأَنَّهُ».',2],
+['«فَاصْبِرْ إِنَّ وَعْدَ اللَّهِ حَقٌّ وَاسْتَغْفِرْ لِذَنبِكَ»<br>في أي سورة؟',['غافر','الروم'],0,'غافر ٥٥، وفي الروم «وَلَا يَسْتَخِفَّنَّكَ».',2],
+['«سُنَّتَ اللَّهِ الَّتِي قَدْ خَلَتْ فِي عِبَادِهِ»<br>في أي سورة؟',['غافر','الفتح'],0,'غافر ٨٥ بالتاء المفتوحة «سُنَّتَ».',2],
+['«كَانُوا أَكْثَرَ مِنْهُمْ وَأَشَدَّ قُوَّةً»<br>في أي سورة؟',['غافر','فاطر'],0,'غافر ٨٢، وفي فاطر «وَكَانُوا أَشَدَّ مِنْهُمْ».',2],
+['«وَمَن يَهْدِ اللَّهُ فَمَا لَهُ مِن …»',['مُّضِلٍّ','هَادٍ'],0,'الزمر ٣٧ «مِن مُّضِلٍّ»، والآية ٢٣ «وَمَن يُضْلِلِ … هَادٍ».',0],
+['«فَمَنْ أَظْلَمُ مِمَّن كَذَبَ عَلَى اللَّهِ وَكَذَّبَ بِالصِّدْقِ … أَلَيْسَ فِي جَهَنَّمَ مَثْوًى …»',['لِّلْكَافِرِينَ','لِّلْمُتَكَبِّرِينَ'],0,'الزمر ٣٢ «لِّلْكَافِرِينَ»، والآية ٦٠ «لِّلْمُتَكَبِّرِينَ».',0],
+['«قَدْ قَالَهَا الَّذِينَ مِن قَبْلِهِمْ فَمَا أَغْنَىٰ عَنْهُم …»<br>في أي سورة؟',['الزمر','غافر'],0,'الزمر ٥٠، وفي غافر ٨٢ «أَفَلَمْ يَسِيرُوا».',1],
+['«وَبَدَا لَهُمْ سَيِّئَاتُ مَا كَسَبُوا وَحَاقَ بِهِم …»<br>في أي سورة؟',['الزمر','غافر'],0,'الزمر ٤٨، وفي غافر ٨٣ «فَلَمَّا جَاءَتْهُمْ رُسُلُهُم».',1],
+['«إِنَّ اللَّهَ لَا يَهْدِي مَنْ هُوَ كَاذِبٌ كَفَّارٌ»<br>في أي سورة؟',['الزمر','غافر'],0,'الزمر ٣، وفي غافر «مُسْرِفٌ كَذَّابٌ».',1],
+['«تَنزِيلُ الْكِتَابِ مِنَ اللَّهِ الْعَزِيزِ الْحَكِيمِ»<br>في أي سورة؟',['غافر','الأحقاف'],1,'الأحقاف والجاثية والزمر «الْحَكِيمِ»، وغافر «الْعَلِيمِ».',2],
+['«وَاللَّهُ خَلَقَكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ …»',['جَعَلَكُمْ أَزْوَاجًا','مِنْ عَلَقَةٍ'],0,'فاطر ١١ «جَعَلَكُمْ أَزْوَاجًا»، وغافر ٦٧ «مِنْ عَلَقَةٍ».',2],
+['«هُوَ الَّذِي خَلَقَكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ …»',['جَعَلَكُمْ أَزْوَاجًا','مِنْ عَلَقَةٍ'],1,'غافر ٦٧ «ثُمَّ مِنْ عَلَقَةٍ».',2],
+['«وَلَقَدْ أَرْسَلْنَا رُسُلًا مِّن قَبْلِكَ مِنْهُم مَّن قَصَصْنَا عَلَيْكَ»<br>في أي سورة؟',['غافر','الروم'],0,'غافر ٧٨، وفي الروم «مِن قَبْلِكَ رُسُلًا إِلَىٰ قَوْمِهِمْ».',2],
+['«أَوَلَمْ يَسِيرُوا … وَمَا كَانَ اللَّهُ لِيُعْجِزَهُ مِن شَيْءٍ»<br>في أي سورة؟',['غافر','فاطر'],1,'فاطر ٤٤.',2],
+['«سُنَّةَ اللَّهِ فِي الَّذِينَ خَلَوْا مِن قَبْلُ»<br>في أي سورة؟',['الأحزاب','الفتح'],0,'الأحزاب ٦٢، وفي الفتح ٢٣ «الَّتِي قَدْ خَلَتْ».',2],
+['«فَاصْبِرْ إِنَّ وَعْدَ اللَّهِ حَقٌّ وَلَا يَسْتَخِفَّنَّكَ …»<br>في أي سورة؟',['غافر','الروم'],1,'الروم ٦٠.',2]
+];
+const LV=['الزمر مع نفسها','الزمر وغافر','غافر مع غيرها','الكل'];
+const st=JSON.parse(JSON.stringify({seen:{},best:{}}));
+let tab='home',cur=null;
+const $=id=>document.getElementById(id);
+function nav(){ $('nav').innerHTML=[['home','الرئيسية'],['cards','بطاقات'],['quiz','اختبار']].map(([k,l])=>`<button class="${tab===k?'on':''}" onclick="go('${k}')">${l}</button>`).join('') }
+function go(t,x){tab=t;cur=x||null;nav();({home,cards,quiz}[t])()}
+function pct(i){const n=SECS[i].c.length;let s=0;SECS[i].c.forEach((c,j)=>{if(st.seen[i+'-'+j])s++});return Math.round(s/n*100)}
+function home(){
+ $('app').innerHTML=`<div class="box"><b>كيف تستخدمينه؟</b><br>ابدئي بالبطاقات لتري الفروق ملوّنة، ثم اختبري نفسك.</div><div class="grid">`+SECS.map((s,i)=>`<button class="sec" onclick="go('cards',${i})"><span>${s.n}</span><span class="pill">${pct(i)}٪ · ${s.c.length} بطاقات</span></button>`).join('')+`</div><div class="row"><button class="btn" onclick="go('quiz')">ابدئي الاختبار</button></div><div class="box hint">ملاحظة: راجعي النصوص مع المصحف قبل الاعتماد النهائي.</div>`}
+function cards(){
+ if(cur===null){cur=0}
+ let i=cur,j=0;drawCard(i,j)}
+function drawCard(i,j){
+ const s=SECS[i],c=s.c[j];st.seen[i+'-'+j]=1;
+ $('app').innerHTML=`<div class="row">`+SECS.map((x,k)=>`<button class="btn ${k===i?'':'o'}" style="font-size:14px;padding:4px 10px" onclick="drawCard(${k},0)">${x.n}</button>`).join('')+`</div>
+ <div class="top"><span>${j+1} / ${s.c.length}</span><span>اضغطي على البطاقة لقلبها</span></div>
+ <div class="bar"><i style="width:${(j+1)/s.c.length*100}%"></i></div>
+ <div class="box card" id="cd" onclick="flip()"><div class="t" id="front">${c.t}</div><div id="back" class="hid">${c.v.map(v=>`<div class="v"><small>${v[0]}</small>${v[1]}</div>`).join('')}</div></div>
+ <div class="row"><button class="btn o" ${j?'':'disabled'} onclick="drawCard(${i},${j-1})">السابقة</button><button class="btn" onclick="${j<s.c.length-1?`drawCard(${i},${j+1})`:`go('quiz')`}">${j<s.c.length-1?'التالية':'إلى الاختبار'}</button></div>`}
+function flip(){$('front').classList.toggle('hid');$('back').classList.toggle('hid')}
+let qs=[],qi=0,sc=0,wrong=[],timed=false,tm=null,tl=0;
+function quiz(){
+ clearInterval(tm);
+ $('app').innerHTML=`<div class="box"><b>اختاري المستوى</b></div><div class="grid">`+LV.map((l,i)=>`<button class="sec" onclick="startQ(${i},false)"><span>${l}</span><span class="pill">${i<3?Q.filter(q=>q[4]===i).length:Q.length} سؤالًا${st.best[i]!=null?' · أفضل: '+st.best[i]:''}</span></button>`).join('')+`</div><div class="row"><button class="btn o" onclick="startQ(3,true)">تحدي الوقت (١٥ ثانية) – الكل</button></div>`}
+function shuffle(a){return a.map(x=>[Math.random(),x]).sort((a,b)=>a[0]-b[0]).map(x=>x[1])}
+function startQ(lv,t,pool){
+ timed=t;window.lv=lv;qs=shuffle(pool||(lv<3?Q.filter(q=>q[4]===lv):Q));qi=0;sc=0;wrong=[];showQ()}
+function showQ(){
+ clearInterval(tm);
+ if(qi>=qs.length)return result();
+ const q=qs[qi],order=shuffle(q[1].map((o,i)=>i));
+ $('app').innerHTML=`<div class="top"><span>${qi+1} / ${qs.length}</span><span id="tt">${timed?'⏱ 15':''}</span><span>النقاط: ${sc}</span></div><div class="bar"><i style="width:${qi/qs.length*100}%"></i></div>
+ <div class="box"><div class="q">${q[0]}</div><div id="os">${order.map(i=>`<button class="opt" onclick="pick(this,${i})">${q[1][i]}</button>`).join('')}</div><div class="note" id="nt"></div></div><div class="row"><button class="btn hid" id="nx" onclick="qi++;showQ()">التالي</button></div>`;
+ if(timed){tl=15;tm=setInterval(()=>{tl--;$('tt').textContent='⏱ '+tl;if(tl<=0){clearInterval(tm);pick(null,-1)}},1000)}}
+function pick(b,i){
+ clearInterval(tm);
+ const q=qs[qi],ok=i===q[2];
+ document.querySelectorAll('.opt').forEach(x=>x.disabled=true);
+ const all=[...document.querySelectorAll('.opt')];
+ all.forEach(x=>{if(x.textContent===q[1][q[2]])x.classList.add('ok')});
+ if(b&&!ok)b.classList.add('bad');
+ if(ok)sc++;else wrong.push(q);
+ $('nt').textContent=(ok?'أحسنتِ! ':i<0?'انتهى الوقت. ':'')+q[3];
+ $('nx').classList.remove('hid');$('nx').textContent=qi<qs.length-1?'التالي':'النتيجة'}
+function result(){
+ const p=Math.round(sc/qs.length*100);
+ if(st.best[lv]==null||sc>st.best[lv])st.best[lv]=sc;
+ $('app').innerHTML=`<div class="box"><div class="big">${sc} / ${qs.length}</div><div class="q">${p>=80?'ما شاء الله، إتقان ممتاز':p>=50?'جيد، كرري الأخطاء':'لا بأس، راجعي البطاقات وأعيدي'}</div><div class="bar"><i style="width:${p}%"></i></div></div>`+
+ (wrong.length?`<div class="box"><b>أخطاؤك:</b>${wrong.map(q=>`<div class="v">${q[0]}<small>${q[3]}</small></div>`).join('')}</div>`:'')+
+ `<div class="row">${wrong.length?`<button class="btn" onclick="startQ(lv,timed,wrong.slice())">أعيدي الأخطاء</button>`:''}<button class="btn o" onclick="go('quiz')">مستوى آخر</button><button class="btn o" onclick="go('cards',0)">البطاقات</button></div>`}
+go('home');
+</script>
+</body>
+</html>
